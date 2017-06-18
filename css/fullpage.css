@@ -1,0 +1,377 @@
+.section{
+	position: relative;
+	background: #FFFFFF;
+	overflow: hidden;
+	text-align: center;
+	width: 100%;
+}
+.section1 .container{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+}
+.section1{
+	background: url(../img/@page-1-bg.jpg) no-repeat center;
+	background-size: cover;
+	max-height: 100%;
+}
+.section1 .page-1-slogan{
+	width: 50%;
+	height: auto;
+	z-index: 4;
+}
+.section1 .page-1-pic{
+	margin-bottom: -200px;
+	margin-right: -800px;
+	max-width: 600px;
+	height: auto;
+	transition-duration: 2s;
+	-webkit-transition: all 1s ease-in;
+	-moz-transition: all 1s ease-in;
+	-o-transition:all 1s ease-in;
+	transition: all 1s ease-in;
+}
+/*.section1 .container .slide1{
+	background: url(../img/bg.jpg);
+	background-size: cover;
+}
+.section1 .container .slide2{
+	background: url(../img/hero_sunset_large_2x.jpg);
+	background-size: cover;
+}
+.section1 .container .slide3{
+	background: url(../img/pic-4.jpg);
+	background-size: cover;
+}*/
+
+/***************section1-end**********************************************/
+.section2{
+	background: url(../img/@page-2-bg.jpg) no-repeat center;
+	background-size: cover;
+	max-height: 100%;
+}
+.section2 .section2-container{
+	position: relative;
+	width: 100%;
+	height: 70%;
+	margin-top: 200px;
+}
+.section2 .section2-container .peiyangmubiao{
+	position: absolute;
+	width: 30%;
+	height: 80%;
+	margin-left: 5%;
+	margin-top: 5%;
+	z-index: 3;
+}
+.section2 .section2-container .peiyangmubiao h1{
+	font-size: 50px;
+	color: #FFFFFF;
+	opacity: 0.8;
+	text-align: left
+}
+.section2 .section2-container .peiyangmubiao p{
+	font-size: 30px;
+	color: #FFFFFF;
+	text-align: left;
+}
+.section2 .section2-container .section2-logo{
+	position: absolute;
+	margin-top:5%;
+	max-width: 400px;
+	margin-left: 33%;
+	z-index: 1;
+	height: auto;
+	transition-duration: 2s;
+	-webkit-transition: all 1s ease-in;
+	-moz-transition: all 1s ease-in;
+	-o-transition:all 1s ease-in;
+	transition: all 1s ease-in;
+}
+.section2 .section2-container .logo-1 img{
+	position: absolute;
+	margin-top: 5%;
+	margin-left: 8%;
+}
+.section2 .section2-container .logo-2 img{
+	position: absolute;
+	margin-top: 13%;
+	margin-left: 11%;
+}
+.section2 .section2-container .logo-3 img{
+	position: absolute;
+	margin-top: 25%;
+	margin-left: 10%;
+}
+.section2 .section2-container .logo-word{
+	text-align: left;
+	color: #FFFFFF;
+}
+.section2 .section2-container .logo-word h1{
+	font-size: 30px;
+	font-weight: bold;
+}
+.section2 .section2-container .logo-word p{
+	font-size: 20px;
+}
+.section2 .section2-container .logo-1-word{
+	position: absolute;
+	margin-top: 4%;
+	margin-left: 63%;
+}
+.section2 .section2-container .logo-2-word{
+	position: absolute;
+	margin-top: 11%;
+	margin-left: 68%;
+}
+.section2 .section2-container .logo-3-word{
+	position: absolute;
+	margin-top:23%;
+	margin-left: 68%;
+}
+/***************section2-end**********************************************/
+.section3{
+	background: url(../img/@page-3-bg.jpg) no-repeat center;
+	background-size: cover;
+}
+.section3 .section3-container{
+	position: relative;
+	width: 100%;
+	height: 70%;
+	margin-top: 20%;
+}
+.section3 .section3-container .section3-logo{
+	margin-top: 4%;
+}
+
+/***************section3-end**********************************************/
+.section4{
+	background-color: #FFFFFF;
+	background-size: cover;
+}
+.section4 .fp-tableCell{
+	vertical-align: bottom;
+}
+.section4 .section4-footer{
+	width: 100%;
+	margin-bottom: 30px;
+}
+.section4 .section4-container{
+	max-height: 800px;
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+.slider .main .main-i,
+	.slider .main,
+	.slider{
+		height: 600px;
+	}
+
+
+/***************section4-end**********************************************/
+
+@media only screen and (max-width: 1400px){
+	.section1 .page-1-slogan{
+	max-width: 600px;
+	height: auto;
+	
+	}
+	.section1 .page-1-pic{
+	margin-bottom: -200px;
+	margin-right: -500px;
+	max-width: 450px;
+	height: auto;
+	}
+	.section2 .section2-container .peiyangmubiao h1{
+	font-size: 40px;
+}
+.section2 .section2-container .peiyangmubiao p{
+	font-size: 25px;
+	color: #FFFFFF;
+	text-align: left;
+}
+.section2 .section2-container .section2-logo img{
+	max-width: 300px;
+}
+.section2 .section2-container .logo-1 img{
+	margin-left: 6%;
+}
+.section2 .section2-container .logo-2 img{
+	position: absolute;
+	margin-top: 15%;
+	margin-left: 9%;
+}
+.section2 .section2-container .logo-3 img{
+	position: absolute;
+	margin-top: 25%;
+	margin-left: 7%;
+}
+.section2 .section2-container .logo-word{
+	text-align: left;
+	color: #FFFFFF;
+}
+.section2 .section2-container .logo-word h1{
+	font-size: 20px;
+	font-weight: bold;
+}
+.section2 .section2-container .logo-word p{
+	font-size: 14px;
+}
+
+	.section4 .section4-container{
+		max-height: 400px;
+		margin-bottom: 80px;
+	}
+	.slider .main .main-i,
+	.slider .main,
+	.slider{
+		height: 400px;
+	}
+}
+@media only screen and (max-width: 1024px){
+	.section2 .section2-container .peiyangmubiao h1{
+	font-size: 40px;
+}
+.section2 .section2-container .peiyangmubiao p{
+	font-size: 20px;
+	color: #FFFFFF;
+	text-align: left;
+}
+.section2 .section2-container .section2-logo img{
+	max-width: 250px;
+	margin-top: 15%;
+}
+.section2 .section2-container .logo-1 img{
+	margin-left: 5%;
+}
+.section2 .section2-container .logo-2 img{
+	position: absolute;
+	margin-top: 17%;
+	margin-left: 7%;
+}
+.section2 .section2-container .logo-3 img{
+	position: absolute;
+	margin-top: 33%;
+	margin-left: 2%;
+	z-index: 3;
+}
+.section2 .section2-container .logo-word{
+	text-align: left;
+	color: #FFFFFF;
+}
+.section2 .section2-container .logo-word h1{
+	font-size: 20px;
+}
+.section2 .section2-container .logo-word p{
+	font-size: 13px;
+}
+.section2 .section2-container .logo-1-word{
+	margin-top: 4%;
+	margin-left: 63%;
+}
+.section2 .section2-container .logo-2-word{
+	margin-top: 13%;
+	margin-left: 66%;
+}
+.section2 .section2-container .logo-3-word{
+	margin-top:30%;
+	margin-left: 63%;
+}
+}
+
+@media only screen and (max-width: 450px){
+	.section1 .page-1-slogan{
+	margin-top: -100px;
+	width: 90%;
+	height: auto;
+	}
+	.section1 .page-1-pic{
+	margin-bottom: -300px;
+	margin-left: -500px;
+	max-width: 350px;
+	height: auto;
+	}
+	.section2 .section2-container .peiyangmubiao h1{
+	font-size: 18px;
+}
+.section2 .section2-container .peiyangmubiao p{
+	font-size: 14px;
+	color: #FFFFFF;
+	text-align: left;
+	z-index: 2;
+}
+.section2 .section2-container .section2-logo img{
+	max-width: 285px;
+	margin-top: 65%;
+	margin-left: -100%;
+	z-index:1 ;
+	opacity: 0.2;
+}
+.section2 .section2-container .logo-1 img{
+	margin-left:-10%;
+	max-width: 60px;
+	margin-top: -2%;
+}
+.section2 .section2-container .logo-2 img{
+	max-width: 75px;
+	margin-top: 30%;
+	margin-left: -12%;
+	z-index: 3;
+}
+.section2 .section2-container .logo-3 img{
+	max-width: 85px;
+	margin-top: 60%;
+	margin-left: -14%;
+	z-index: 3;
+}
+.section2 .section2-container .logo-word{
+	text-align: left;
+	color: #FFFFFF;
+}
+.section2 .section2-container .logo-word h1{
+	font-size: 18px;
+}
+.section2 .section2-container .logo-word p{
+	font-size: 11px;
+}
+.section2 .section2-container .logo-1-word{
+	margin-top: -6%;
+	margin-left: 62%;
+	margin-right: 2%;
+}
+.section2 .section2-container .logo-2-word{
+	margin-top: 12%;
+	margin-left: 62%;
+	margin-right: 2%;
+}
+.section2 .section2-container .logo-3-word{
+	margin-top:62%;
+	margin-left: 62%;
+	margin-right: 2%;
+}
+.section3 .section3-container .section3-logo{
+	margin-top: 50%;
+}
+	.section4 .section4-container{
+		max-height: 300px;
+		margin-bottom: 200px;
+	}
+	.slider .main .main-i,
+	.slider .main,
+	.slider{
+		height: 300px;
+	}
+}
+@media only screen and (max-width: 380px){
+	.section4 .section4-container{
+	max-height: 400px;
+	margin-top: 100px;
+	}
+	.slider .main .main-i,
+	.slider .main,
+	.slider{
+	height: 300px;
+	}
+}

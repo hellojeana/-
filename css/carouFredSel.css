@@ -1,0 +1,165 @@
+#wrapper {/*外层容器*/
+	width: 80%;
+	height: 50%;
+	position: absolute;
+	margin-left: 10%;
+	margin-top: 1%;
+}
+
+#carousel {/*轮播图部分*/
+	width: 80%;
+	position:absolute;
+	left: 0; 
+	top: 0; 
+	right: 0; 
+	bottom: 0;
+	margin: auto;
+}
+#carousel ul {/*轮播图列表*/
+	position: absolute;
+	list-style: none;
+	display: block;
+	margin: 0;
+	margin-top: 3%;
+	padding: 0;
+}
+#carousel li {/*单个轮播图容器*/
+	background: transparent url(../img/@page-3-photo-boder.png) no-repeat 0 0;
+	font-size: 40px;
+	color: #999;
+	text-align: center;
+	display: block;
+	width: 180px;
+	height: 310px;
+	padding: 0;
+	margin: 31px;
+	float: left;
+	position: relative;
+}
+#carousel li p{
+	color: #F0F0F0;
+	opacity: 0.8;
+	font-size: 30px;
+	margin-top: 30px;
+}
+#carousel li img {/*单个轮播图中图片内容*/
+	width: 160px;
+	height: 230px;
+	margin-top: 16px;
+}
+
+.clearfix {/*清除浮动*/
+	float: none;
+	clear: both;
+}
+#carousel .prev, #carousel .next {
+	background: transparent url(../img/carousel_control.png) no-repeat 0 0;
+	text-indent: -999px;
+	display: block;
+	overflow: hidden;
+	width: 17px;
+	height: 30px;
+	margin-left: 10px;
+	position: absolute;
+	top: 40%;				
+}
+#carousel .prev {
+	background-position: 0 0;
+	left: -30px;
+}
+#carousel .prev:hover {
+	left: -32px;
+}			
+#carousel .next {
+	background-position: -18px 0;
+	right: -20px;
+}
+#carousel .next:hover {
+	right: -22px;
+}				
+#carousel .pager {
+	text-align: center;
+	margin: 0 auto;
+}
+#carousel .pager a {/*轮播图翻页小点*/
+	background: transparent url(images/carousel_control.png) no-repeat -2px -32px;
+	text-decoration: none;
+	text-indent: -999px;
+	display: inline-block;
+	overflow: hidden;
+	width: 8px;
+	height: 8px;
+	margin: 0 5px 0 0;
+}
+#carousel .pager a.selected {/*当前选中的翻页小点样式*/
+	background: transparent url(images/carousel_control.png) no-repeat -12px -32px;
+	text-decoration: underline;			
+}
+
+#source {
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+}
+#source, #source a {
+	font-size: 12px;
+	color: #999;
+}
+
+#donate-spacer {
+	height: 100%;
+}
+#donate {
+	border-top: 1px solid #999;
+	width: 750px;
+	padding: 50px 75px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#donate p, #donate form {
+	margin: 0;
+	float: left;
+}
+#donate p {
+	width: 650px;
+}
+#donate form {
+	width: 100px;
+}
+
+/*响应式*/
+
+@media only screen and (max-width: 1400px){
+#carousel {/*轮播图部分*/
+	width: 90%;
+}
+#carousel ul {/*轮播图列表*/
+	margin-top: 1%;
+}
+#carousel li p{
+	font-size: 25px;
+}
+}
+@media only screen and (max-width: 1024px){
+#carousel li p{
+	font-size: 25px;
+}
+}
+@media only screen and (max-width: 450px){
+#wrapper {/*外层容器*/
+	height: 80%;
+	margin-top: 1%;
+}
+
+#carousel {/*轮播图部分*/
+	width: 80%;
+}
+#carousel li p{
+	font-size: 25px;
+}
+}
+@media only screen and (max-width: 380px){
+	
+}
